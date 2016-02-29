@@ -8,3 +8,4 @@ class RockScore
     score.nan? ? NoScore : score
   end
 end
+

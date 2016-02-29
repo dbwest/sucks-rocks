@@ -1,0 +1,152 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://:<BING API KEY>@api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Composite?$format=json&$top=1&Query='windows'&Sources='web'
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "U2VydmVy":
+      - !binary |-
+        TWljcm9zb2Z0LUlJUy84LjA=
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "QWN0aXZpdHlpZA==":
+      - !binary |-
+        Y2ZhMDhlMzktMGI4Mi00MThhLThhYjMtOTc5ODQ1ODY4Mzdj
+      !binary "WC1Bc3BuZXQtVmVyc2lvbg==":
+      - !binary |-
+        NC4wLjMwMzE5
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        QVNQLk5FVA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVycw==":
+      - !binary |-
+        Q29udGVudC1UeXBlLCBBdXRob3JpemF0aW9uLCBEYXRhU2VydmljZVZlcnNp
+        b24sIE1heERhdGFTZXJ2aWNlVmVyc2lvbg==
+      !binary "QWNjZXNzLUNvbnRyb2wtRXhwb3NlLUhlYWRlcnM=":
+      - !binary |-
+        RGF0YVNlcnZpY2VWZXJzaW9uLCBNYXhEYXRhU2VydmljZVZlcnNpb24=
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NULCBQVVQsIERFTEVURSwgT1BUSU9OUw==
+      !binary "QWNjZXNzLUNvbnRyb2wtTWF4LUFnZQ==":
+      - !binary |-
+        NjA0ODAw
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAyOSBGZWIgMjAxNiAxNzowMzo1OSBHTVQ=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTIwOQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJkIjp7InJlc3VsdHMiOlt7Il9fbWV0YWRhdGEiOnsidXJpIjoiaHR0cHM6
+        Ly9hcGkuZGF0YW1hcmtldC5henVyZS5jb20vRGF0YS5hc2h4L0JpbmcvU2Vh
+        cmNoL3YxL0NvbXBvc2l0ZT9Tb3VyY2VzPVx1MDAyN3dlYlx1MDAyNyZRdWVy
+        eT1cdTAwMjd3aW5kb3dzXHUwMDI3JiRza2lwPTAmJHRvcD0xIiwidHlwZSI6
+        IkV4cGFuZGFibGVTZWFyY2hSZXN1bHQifSwiSUQiOiI3MjNmNzI5ZS05NTU0
+        LTQzODUtOTIyMS04MzFkMzUwYjUwOTciLCJXZWJUb3RhbCI6Ijg4NTAwMDAw
+        MCIsIldlYk9mZnNldCI6IjAiLCJJbWFnZVRvdGFsIjoiIiwiSW1hZ2VPZmZz
+        ZXQiOiIiLCJWaWRlb1RvdGFsIjoiIiwiVmlkZW9PZmZzZXQiOiIiLCJOZXdz
+        VG90YWwiOiIiLCJOZXdzT2Zmc2V0IjoiIiwiU3BlbGxpbmdTdWdnZXN0aW9u
+        c1RvdGFsIjoiIiwiQWx0ZXJlZFF1ZXJ5IjoiIiwiQWx0ZXJhdGlvbk92ZXJy
+        aWRlUXVlcnkiOiIiLCJXZWIiOlt7Il9fbWV0YWRhdGEiOnsidXJpIjoiaHR0
+        cHM6Ly9hcGkuZGF0YW1hcmtldC5henVyZS5jb20vRGF0YS5hc2h4L0Jpbmcv
+        U2VhcmNoL3YxL0V4cGFuZGFibGVTZWFyY2hSZXN1bHRTZXQoZ3VpZFx1MDAy
+        NzcyM2Y3MjllLTk1NTQtNDM4NS05MjIxLTgzMWQzNTBiNTA5N1x1MDAyNykv
+        V2ViPyRza2lwPTAmJHRvcD0xIiwidHlwZSI6IldlYlJlc3VsdCJ9LCJJRCI6
+        IjVkZWQ0NDhkLTlkMjMtNDZlNC1iM2Q4LTIyNGZjYjlkODBiOCIsIlRpdGxl
+        IjoiTWljcm9zb2Z0IOKAkyBPZmZpY2lhbCBIb21lIFBhZ2UiLCJEZXNjcmlw
+        dGlvbiI6IkdyZWF0IGFwcHMgZm9yIFdpbmRvd3M7IEZpbmQgZnJlZSBhbmQg
+        cGFpZCBhcHBzIHRvIGhlbHAgeW91IHN0YXkgZW50ZXJ0YWluZWQsIGJlIHBy
+        b2R1Y3RpdmUsIG9yIGdldCBjcmVhdGl2ZS4gRXhwbG9yZSBhcHBzIGF0IHRo
+        ZSBXaW5kb3dzIFN0b3JlIiwiRGlzcGxheVVybCI6Ind3dy5taWNyb3NvZnQu
+        Y29tIiwiVXJsIjoiaHR0cDovL3d3dy5taWNyb3NvZnQuY29tLyJ9XSwiSW1h
+        Z2UiOltdLCJWaWRlbyI6W10sIk5ld3MiOltdLCJSZWxhdGVkU2VhcmNoIjpb
+        XSwiU3BlbGxpbmdTdWdnZXN0aW9ucyI6W119XSwiX19uZXh0IjoiaHR0cHM6
+        Ly9hcGkuZGF0YW1hcmtldC5henVyZS5jb20vRGF0YS5hc2h4L0JpbmcvU2Vh
+        cmNoL3YxL0NvbXBvc2l0ZT9Tb3VyY2VzPVx1MDAyN3dlYlx1MDAyNyZRdWVy
+        eT1cdTAwMjd3aW5kb3dzXHUwMDI3JiRza2lwPTEmJHRvcD0xIn19
+    http_version: 
+  recorded_at: Mon, 29 Feb 2016 17:03:58 GMT
+- request:
+    method: get
+    uri: https://:<BING API KEY>@api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Composite?$format=json&$top=1&Query='beos'&Sources='web'
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/8.0
+      X-Content-Type-Options:
+      - nosniff
+      Activityid:
+      - f53cd734-1d5f-4057-9e80-368bd366c1e4
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Headers:
+      - Content-Type, Authorization, DataServiceVersion, MaxDataServiceVersion
+      Access-Control-Expose-Headers:
+      - DataServiceVersion, MaxDataServiceVersion
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Max-Age:
+      - '604800'
+      Date:
+      - Mon, 29 Feb 2016 17:03:59 GMT
+      Content-Length:
+      - '1260'
+    body:
+      encoding: US-ASCII
+      string: ! '{"d":{"results":[{"__metadata":{"uri":"https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Composite?Sources=\u0027web\u0027&Query=\u0027beos\u0027&$skip=0&$top=1","type":"ExpandableSearchResult"},"ID":"e526e6dd-0b0d-4ca7-8f28-4ce4e8863551","WebTotal":"867000","WebOffset":"0","ImageTotal":"","ImageOffset":"","VideoTotal":"","VideoOffset":"","NewsTotal":"","NewsOffset":"","SpellingSuggestionsTotal":"","AlteredQuery":"","AlterationOverrideQuery":"","Web":[{"__metadata":{"uri":"https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/ExpandableSearchResultSet(guid\u0027e526e6dd-0b0d-4ca7-8f28-4ce4e8863551\u0027)/Web?$skip=0&$top=1","type":"WebResult"},"ID":"ce8b1f7d-3e09-4b24-9050-62ec39213e45","Title":"BeOS
+        - Wikipedia, the free encyclopedia","Description":"BeOS is an operating system
+        for personal computers first developed by Be Inc. in 1991. It was first written
+        to run on BeBox hardware. BeOS was built for digital media ...","DisplayUrl":"https://en.wikipedia.org/wiki/BeOS","Url":"https://en.wikipedia.org/wiki/BeOS"}],"Image":[],"Video":[],"News":[],"RelatedSearch":[],"SpellingSuggestions":[]}],"__next":"https://api.datamarket.azure.com/Data.ashx/Bing/Search/v1/Composite?Sources=\u0027web\u0027&Query=\u0027beos\u0027&$skip=1&$top=1"}}'
+    http_version: 
+  recorded_at: Mon, 29 Feb 2016 17:03:58 GMT
+recorded_with: VCR 3.0.1
