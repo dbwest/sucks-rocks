@@ -24,7 +24,7 @@ gem 'jquery-rails'
 
 group :test do
   gem 'rspec-rails'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', '>= 1.4.3', :require => false
   gem 'database_cleaner'
   gem 'vcr'
   gem 'webmock'
