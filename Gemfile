@@ -23,7 +23,7 @@ end
 gem 'jquery-rails'
 
 group :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'vcr'
